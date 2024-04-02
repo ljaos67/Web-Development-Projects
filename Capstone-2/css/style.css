@@ -1,0 +1,34 @@
+body{
+    background-color: #72A0C1;
+}
+#hero
+{
+    font-family: "Inter", sans-serif;
+    color:#022b3a;
+}
+#hero img{
+    border-radius: 50%;
+}
+#resume-body{
+    font-family: "Inter", sans-serif;
+    color:#022b3a;    
+}
+#projects-body{
+    font-family: "Inter", sans-serif;
+    color:#022b3a;    
+}
+#about-body{
+    font-family: "Inter", sans-serif;
+    color:#022b3a;    
+}
+#resume-body li{
+    font-size: 10pt;
+}
+.navbar .navbar-brand, .navbar .navbar-nav .nav-link {
+    color: white;
+  }
+
+#nav {
+    background-color: #2274a5;
+    font-family: "Inter", sans-serif;
+}
