@@ -1,0 +1,64 @@
+:root {
+    --card-height: 50vh;
+    --card-width: calc(var(--card-height) * 2);
+  }
+body {
+    color: #00FF00;
+    font: .5rem Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+    background-color: #002b36;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+@keyframes typing {
+  from { width: 0; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}
+
+.typing-container {
+  width: 100%; /* Set the width of the container */
+}
+
+.typing {
+  display: inline-block; /* Display inline-block to adjust width dynamically */
+  overflow: hidden; /* Ensures the text stays within the element */
+  white-space: nowrap; /* Prevents text from wrapping */
+  border-right: 0.15em solid black; /* Creates the caret */
+  animation: typing 4s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+/* Optional: to ensure it's left-aligned */
+p {
+  text-align: left;
+}
+  .a{
+    color: #00FF00;
+    font: Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+  }
+  .card {
+    color: #00FF00;
+    font: .5rem Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 8px;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd; /* Light border */
+  }
